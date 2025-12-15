@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "音乐",
+  "usingComponents": {
+    "resource-common": "../../components/ResourceCommon"
+  }
+}

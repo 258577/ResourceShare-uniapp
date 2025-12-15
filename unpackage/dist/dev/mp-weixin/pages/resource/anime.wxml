@@ -1,0 +1,1 @@
+<view><resource-common wx:if="{{a}}" u-i="4af2c38c-0" bind:__l="__l" u-p="{{a}}"/></view>

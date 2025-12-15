@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "favorite-button": "./FavoriteButton"
+  }
+}

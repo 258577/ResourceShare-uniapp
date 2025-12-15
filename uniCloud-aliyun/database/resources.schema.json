@@ -1,0 +1,93 @@
+{
+    "bsonType": "object",
+    "required": [
+        "title",
+        "resourceType",
+        "description",
+        "cover"
+    ],
+    "permission": {
+        "read": true,
+        "create": "auth.role == 'admin'",
+        "update": "doc.owner == auth.uid || auth.role == 'admin'",
+        "delete": "doc.owner == auth.uid || auth.role == 'admin'"
+    },
+    "properties": {
+        "_id": {
+            "description": "ID，系统自动生成"
+        },
+        "title": {
+            "bsonType": "string",
+            "description": "资源标题",
+            "minLength": 2,
+            "maxLength": 100
+        },
+        "description": {
+            "bsonType": "string",
+            "description": "资源描述",
+            "maxLength": 500
+        },
+        "cover": {
+            "bsonType": "string",
+            "description": "资源封面图片链接",
+            "pattern": "^(http|https)://.*"
+        },
+        "link": {
+            "bsonType": "string",
+            "description": "资源链接",
+            "pattern": "^(http|https)://.*"
+        },
+        "resourceType": {
+            "bsonType": "string",
+            "description": "资源类型",
+            "enum": [
+                "tv",
+                "movie",
+                "software",
+                "book",
+                "shortvideo",
+                "anime",
+                "variety",
+                "usatv",
+                "comic",
+                "koreatv",
+                "music"
+            ]
+        },
+        "viewCount": {
+            "bsonType": "int",
+            "description": "浏览次数",
+            "minimum": 0,
+            "defaultValue": 0
+        },
+        "favoriteCount": {
+            "bsonType": "int",
+            "description": "收藏次数",
+            "minimum": 0,
+            "defaultValue": 0
+        },
+        "downloadCount": {
+            "bsonType": "int",
+            "description": "下载次数",
+            "minimum": 0,
+            "defaultValue": 0
+        },
+        "recommended": {
+            "bsonType": "bool",
+            "description": "是否推荐到首页",
+            "defaultValue": false
+        },
+        "owner": {
+            "bsonType": "string",
+            "description": "资源上传者的用户ID",
+            "foreignKey": "uni-id-users._id"
+        },
+        "create_date": {
+            "bsonType": "timestamp",
+            "description": "创建时间",
+            "defaultValue": {
+                "$env": "now"
+            }
+        }
+    }
+}

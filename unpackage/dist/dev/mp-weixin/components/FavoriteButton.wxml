@@ -1,0 +1,1 @@
+<view class="favorite-btn" bindtap="{{c}}"><text class="{{['iconfont', a]}}"></text><text>{{b}}</text></view>

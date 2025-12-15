@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "综艺",
+  "usingComponents": {
+    "resource-common": "../../components/ResourceCommon"
+  }
+}

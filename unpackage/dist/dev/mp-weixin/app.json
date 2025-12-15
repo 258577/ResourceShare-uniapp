@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/favorite/favorite",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/resource/detail",
+    "pages/admin/banners/banners",
+    "pages/admin/upload/upload",
+    "pages/resource/tv",
+    "pages/resource/movie",
+    "pages/resource/software",
+    "pages/resource/book",
+    "pages/resource/shortvideo",
+    "pages/resource/anime",
+    "pages/resource/variety",
+    "pages/resource/usatv",
+    "pages/resource/comic",
+    "pages/resource/koreatv",
+    "pages/resource/music",
+    "pages/category/allCategories",
+    "pages/webview/webview",
+    "pages/search/search",
+    "pages/admin/recommend/recommend",
+    "pages/admin/edit/edit"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "资源分享平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/favorite/favorite",
+        "iconPath": "static/tabbar/favorite.png",
+        "selectedIconPath": "static/tabbar/favorite-active.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

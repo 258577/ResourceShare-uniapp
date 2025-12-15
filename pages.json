@@ -1,0 +1,176 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "资源分享平台"
+			}
+		},
+		{
+			"path": "pages/favorite/favorite",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/resource/detail",
+			"style": {
+				"navigationBarTitleText": "资源详情"
+			}
+		},
+		{
+			"path": "pages/admin/banners/banners",
+			"style": {
+				"navigationBarTitleText": "轮播图管理"
+			}
+		},
+		{
+			"path": "pages/admin/upload/upload",
+			"style": {
+				"navigationBarTitleText": "资源详情"
+			}
+		},
+		{
+			"path": "pages/resource/tv",
+			"style": {
+				"navigationBarTitleText": "电视剧"
+			}
+		},
+		{
+			"path": "pages/resource/movie",
+			"style": {
+				"navigationBarTitleText": "电影"
+			}
+		},
+		{
+			"path": "pages/resource/software",
+			"style": {
+				"navigationBarTitleText": "软件"
+			}
+		},
+		{
+			"path": "pages/resource/book",
+			"style": {
+				"navigationBarTitleText": "小说"
+			}
+		},
+		{
+			"path": "pages/resource/shortvideo",
+			"style": {
+				"navigationBarTitleText": "短剧"
+			}
+		},
+		{
+			"path": "pages/resource/anime",
+			"style": {
+				"navigationBarTitleText": "动漫"
+			}
+		},
+		{
+			"path": "pages/resource/variety",
+			"style": {
+				"navigationBarTitleText": "综艺"
+			}
+		},
+		{
+			"path": "pages/resource/usatv",
+			"style": {
+				"navigationBarTitleText": "美剧"
+			}
+		},
+        {
+        	"path": "pages/resource/comic",
+        	"style": {
+        		"navigationBarTitleText": "漫画"
+        	}
+        },
+        {
+        	"path": "pages/resource/koreatv",
+        	"style": {
+        		"navigationBarTitleText": "韩剧"
+        	}
+        },
+        {
+        	"path": "pages/resource/music",
+        	"style": {
+        		"navigationBarTitleText": "音乐"
+        	}
+        },
+        {
+        	"path": "pages/category/allCategories",
+        	"style": {
+        		"navigationBarTitleText": "所有资源"
+        	}
+        },
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "外部链接"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "全局搜索"
+			}
+		},
+		{
+			"path": "pages/admin/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "首页推荐管理"
+			}
+		},
+		{
+		    "path" : "pages/admin/edit/edit",
+		    "style" : 
+		    {
+		        "navigationBarTitleText" : "资源编辑"
+		    }
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/favorite/favorite",
+				"iconPath": "static/tabbar/favorite.png",
+				"selectedIconPath": "static/tabbar/favorite-active.png",
+				"text": "收藏"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "资源分享平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "动漫",
+  "usingComponents": {
+    "resource-common": "../../components/ResourceCommon"
+  }
+}

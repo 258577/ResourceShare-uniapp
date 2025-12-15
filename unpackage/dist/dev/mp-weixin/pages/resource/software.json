@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "软件",
+  "usingComponents": {
+    "resource-common": "../../components/ResourceCommon"
+  }
+}

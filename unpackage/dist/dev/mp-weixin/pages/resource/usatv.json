@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "美剧",
+  "usingComponents": {
+    "resource-common": "../../components/ResourceCommon"
+  }
+}
